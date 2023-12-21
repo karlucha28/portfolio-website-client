@@ -11,3 +11,211 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+/* Header css */
+header {
+  background-color: #4a2f27;
+  color: ivory;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  color: ivory;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+
+
+/* AboutPage */
+
+.about-page {
+  font-family: 'Texturina', serif; /* Or any medieval-themed font */
+  background-color: #f4eee8; /* Parchment-like background */
+  color: #3e2723; /* Dark, earthy text color */
+  padding: 20px;
+  line-height: 1.6;
+}
+
+.about-page h2, .about-page h3 {
+  color: #6d4c41; /* A deeper tone for headers */
+}
+
+.about-page ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.about-page ul li:before {
+  content: '🛡️'; /* A simple medieval icon */
+  margin-right: 10px;
+}
+
+
+
+/* PortfolioPage.css */
+
+.portfolio-page {
+  font-family: 'Tangerine', cursive; /* A font that gives an Elvish feel */
+  background-color: #f0f0f5; /* Light, natural background color */
+  color: #3a5d40; /* Deep green for text, reminiscent of forests */
+  padding: 20px;
+}
+
+.portfolio-page h2, .portfolio-page h3 {
+  color: #7a5c61; /* Soft earthy tones for headers */
+  border-bottom: 1px solid #7a5c61;
+}
+
+.portfolio-page .project {
+  background-color: #e8e8ee; /* Light background for project cards */
+  border: 1px solid #7a5c61; /* Subtle borders */
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.portfolio-page .project h4 {
+  margin-top: 0;
+}
+
+.portfolio-page a {
+  color: #5a3d74; /* Dark purple for links, for an enchanting feel */
+  text-decoration: none;
+}
+
+.portfolio-page a:hover {
+  text-decoration: underline;
+}
+
+
+/* ContactPage.css */
+
+.contact-page {
+  font-family: 'Quattrocento', serif; /* An elegant, flowing font */
+  background-color: #f0f0f5; /* Soft, light background */
+  color: #3e6352; /* Deep forest green for text */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.contact-page h2 {
+  color: #7a5c61; /* Earthy, muted tone */
+}
+
+.contact-page .contact-info {
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.contact-page .contact-form {
+  background-color: #e8e8ee; /* A slightly different background for form */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.contact-page label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.contact-page input[type="text"],
+.contact-page input[type="email"],
+.contact-page textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 20px;
+  border: 1px solid #a5b8a9; /* Subtle, nature-inspired border */
+  border-radius: 5px;
+}
+
+.contact-page button {
+  background-color: #6a847c; /* Darker green for buttons */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-page button:hover {
+  background-color: #587268;
+}
+
+
+
+/* Footer.css */
+
+.footer {
+  font-family: 'Tangerine', cursive; /* An elegant, flowing font */
+  background-color: #76c782;
+  color: #aeb173; /* Deep forest green for text */
+  text-align: center;
+  padding: 20px;
+  border-top: 1px solid #a5b8a9;
+}
+
+.footer p {
+  margin: 5px 0;
+  font-size: 18px;
+  text-shadow: 0 0 8px #ffffe0, 0 0 15px #ffffe0, 0 0 20px #ffffe0; /* Glowing effect with a yellow-bright white color */
+}
+
+.footer p::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+  box-shadow: 0 0 15px 5px #a5b8a9;
+  z-index: -1;
+}
+
+
+
+
+/* HomePage.css */
+
+.home-page {
+  font-family: 'Quattrocento', serif; /* An elegant, flowing font */
+  background-color: #e6f2ff; /* Light blue background */
+  color: #03396c; /* Darker blue for contrast */
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.home-page h1 {
+  color: #0276fd; /* Bright blue for the main title */
+  margin-bottom: 20px;
+}
+
+.home-page p {
+  font-size: 18px;
+}
+
+.introduction {
+  background-color: #b3daff; /* A softer blue for the introduction section */
+  padding: 15px;
+  margin-top: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #aacfe7; /* Subtle shadow for depth */
+}
+
+/* Parallax Effect */
+
+.horizontal-scroll {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  width: 100vw;
+  height: 100vh;
+}
